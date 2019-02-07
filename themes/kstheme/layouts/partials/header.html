@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+    <head>
+        <title> {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} {{ end }} </title>
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
+        {{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />{{ end }}
+
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Material Design for Bootstrap fonts and icons -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+
+<!-- Material Design for Bootstrap CSS -->
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+    </head>
+    <body>
+
+<!-- NAVBAR-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+</nav>
+-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.main }}
+                            {{ if .HasChildren }}
+                            <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="{{ .URL }}" id="navbarDropdown-{{ .Name }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            {{ .Pre }}
+                                            <span>{{ .Name }}</span>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown-{{ .Name }}">
+                                            {{ range .Children }}
+                                           
+                                           <a class="dropdown-item" href="{{ .URL }}">{{ .Name }}</a>
+                                           
+                                        {{ end }}
+                                   
+                                    </div>
+                                    {{ else }}
+                                    <li class="nav-item">
+                                        <a href="{{ .URL }}">
+                                            {{ .Pre }}
+                                            <span>{{ .Name }}</span>
+                                        </a>
+                                    </li>
+                                {{ end }}
+                            {{ end }}
+                        </ul>
+                          
+    </div
+></nav>
+
+      
+
+<header class="masthead bg-primary text-white text-center">
+        <div class="container">
+          <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
+          <h1 class="text-uppercase mb-0"> {{ .Site.Title }}</h1>
+          <hr class="star-light">
+          <h2 class="font-weight-light mb-0"> summary</h2>
+        </div>
+</header>
