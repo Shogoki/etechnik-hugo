@@ -1,0 +1,4 @@
+---
+name: home
+---
+Startseiten Text
