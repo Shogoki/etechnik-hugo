@@ -1,8 +1,7 @@
 ---
-name: fortbildungen
 title: fortBildungenchild
-menu:
-    main:
-        parent: fortbildungen
+Menu:
+  Main:
+    Parent: Fortbildungen
 ---
 content
