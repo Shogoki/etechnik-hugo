@@ -9,15 +9,13 @@
   
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-
+<!-- script that is adjusting my preview to only show title and Body -->
   <script>
       var PostPreview = createClass({
         render: function() {
           var entry = this.props.entry;
           return h('div', {},
-            h('div', { className: "blog-post" },
-              imageContainer,
-              h('div', { },
+            h('div', { },
                 h('h1', { }, 
                   h('span', { }, entry.getIn(['data', 'title']))
                 ),
@@ -26,7 +24,7 @@
                 h('div', { }, this.props.widgetFor('body'))
               )
             )
-          )
+          
           }
       });
       
