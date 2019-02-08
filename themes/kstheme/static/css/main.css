@@ -3,3 +3,13 @@
     display: block;
     margin-top: 0; /* remove the gap so it doesn't close
  }*/
+
+ .leftfloat {
+    float: left;
+     margin-right: 10px;
+     clear: left;
+ }
+
+ table, th, td {
+    border: 1px solid black;
+  }
