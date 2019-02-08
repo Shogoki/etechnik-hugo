@@ -1,4 +1,6 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "de-de"
+title = "E-Technik"
 theme = "kstheme"
+[params]
+  summary = "Das Hanke-Konzept"
