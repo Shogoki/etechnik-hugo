@@ -16,23 +16,23 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: “{{slug}}" #"{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-#      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "pages"}
       - {label: "Title", name: "title", widget: "string"}
 #     - {label: "Publish Date", name: "date", widget: "datetime"}
-      - label: "menu"
-        name: "Menu"
+      - label: "Menu"
+        name: "menu"
         widget: "object"
         fields:
-          - label: "main"
-            name: "Main"
+          - label: "Hauptmenü"
+            name: "main"
             widget: "object"
             fields: 
-              - label: "parent"
-                name: "Parent"
+              - label: "Übergeordnet"
+                name: "parent"
                 widget: "relation"
                 collection: "pages"
                 searchFields: ["title"]
                 valueField: "title"
                 displayFields: ["title"] 
       #- {label: "Featured Image", name: "thumbnail", widget: "image"}
-       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown"}
