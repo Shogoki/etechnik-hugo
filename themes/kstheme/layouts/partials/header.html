@@ -2,7 +2,7 @@
 <html>
     <head>
         <title> {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} {{ end }} </title>
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
+
         {{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />{{ end }}
   
 <!-- Required meta tags -->
@@ -14,7 +14,7 @@
 
 <!-- Material Design for Bootstrap CSS -->
 <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
-
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
     </head>
     <body>
 
@@ -38,7 +38,7 @@
 </nav>
 -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="/">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,8 +48,8 @@
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.main }}
                             {{ if .HasChildren }}
-                            <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }} nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="{{ .URL }}" id="navbarDropdown-{{ .Name }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="{{ .URL }}" id="navbarDropdown-{{ .Name }}" data-toggle="hover" aria-haspopup="true" aria-expanded="false">
                                             {{ .Pre }}
                                             <span>{{ .Name }}</span>
                                     </a>
@@ -79,9 +79,9 @@
 
 <header class="masthead bg-primary text-white text-center">
         <div class="container">
-          <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="">
+          <!--<img class="img-fluid mb-5 d-block mx-auto" src="images/profile.gif" alt="">-->
           <h1 class="text-uppercase mb-0"> {{ .Site.Title }}</h1>
           <hr class="star-light">
-          <h2 class="font-weight-light mb-0"> summary</h2>
+          <h2 class="font-weight-light mb-0"> {{ .Site.Params.summary }}</h2>
         </div>
 </header>
