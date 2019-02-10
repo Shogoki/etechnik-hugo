@@ -3,7 +3,7 @@ backend:
   repo: Shogoki/etechnik-hugo # Path to your GitHub repository
 
 
-publish_mode: editorial_workflow
+#publish_mode: editorial_workflow
 
 # These lines should *not* be indented
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
@@ -20,7 +20,7 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Ort", name: "location", widget: "string"}
       - {label: "Kontaktdaten", name: "body", widget: "markdown"}
-   - name: "team"
+  - name: "team"
     label: "Team"
     folder: "content/team"
     create: true
@@ -47,12 +47,12 @@ collections:
       - {label: "Referent", name: "referent", widget: "string"}
       - {label: "Kosten", name: "cost", widget: "string"}
       - label: "Kursort"
-                name: "location"
-                widget: "relation"
-                collection: "locations"
-                searchFields: ["title"]
-                valueField: "title"
-                displayFields: ["title"] 
+        name: "location"
+        widget: "relation"
+        collection: "locations"
+        searchFields: ["title"]
+        valueField: "title"
+        displayFields: ["title"] 
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Seiten" # Used in the UI
     folder: "content/pages" # The path to the folder where the documents are stored
