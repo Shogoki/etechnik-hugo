@@ -21,19 +21,19 @@ collections:
       - {label: "Ort", name: "location", widget: "string"}
       - {label: "Kontaktdaten", name: "body", widget: "markdown"}
   - name: "team"
-    label: "Team"
+    label: "Team Mitglied"
     folder: "content/team"
     create: true
     slug:  "{{slug}}" 
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "team"}
       - {label: "Name", name: "title", widget: "string"}
-      - {label: "Geboren", name: "birth", widget: "string"}
-      - {label: "E-mail", name: "mail", widget: "string"}
-      - {label: "Telefon", name: "phone", widget: "string"}
-      - {label: "Website", name: "web", widget: "string"}
-      - {label: "Adresse", name: "address", widget: "text"}
-      - {label: "Bild", name: "image", widget: "image"}
+      - {label: "Geboren", name: "birth", widget: "string", required: false}
+      - {label: "E-mail", name: "mail", widget: "string", required: false}
+      - {label: "Telefon", name: "phone", widget: "string", required: false}
+      - {label: "Website", name: "web", widget: "string", required: false}
+      - {label: "Adresse", name: "address", widget: "text", required: false}
+      - {label: "Bild", name: "image", widget: "image", required: false}
       - {label: "Inhalt", name: "body", widget: "markdown"} #maybe the CV could be done with LIST widget
   - name: "events"
     label: "Termine"
