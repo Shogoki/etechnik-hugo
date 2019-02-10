@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/cms.css">
     <title>Content Manager</title>
 </head>
 <body>
@@ -74,25 +75,34 @@ CMS.registerEditorComponent({
     {
       label: 'Titel',
       name: 'title',
+      default: '',
     },
     {
       label: 'Untertitel',
       name: 'caption',
+      default: '',
     },
     {
-      label: 'Hoehe',
+      label: 'Höhe',
       name: 'height',
+      widget: "number",
+      valueType: "int",
     },
     {
       label: 'Breite',
       name: 'width',
+      widget: "number",
+      valueType: "int",
     },
     {
-      label: 'Class',
+      label: 'Textfluss',
       name: '_class',
+      widget: "select",
+      options: [{ label: "Standard", value: "" }, { label: "Links neben Text", value: "leftfloat" }, { label: "Rechts neben Text", value: "rightfloat" }],
     },
   ],
 });
+CMS.registerPreviewStyle('css/preview.css');
 </script>
 </body>
 </html>
