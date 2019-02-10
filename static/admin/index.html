@@ -30,5 +30,70 @@
       
       CMS.registerPreviewTemplate("pages", PostPreview);
       </script>
+<!-- creating an Editorcomponent for the FIGURE shotcode of Hugo-->
+<script>
+CMS.registerEditorComponent({
+
+  label: 'Figure',
+  id: 'figure',
+  fromBlock: match =>
+    match && {
+      image: match[2],
+      title: match[4],
+      caption: match[6],
+      height: match[8],
+      width: match[10],
+      _class: match[12]
+    },
+  toBlock: ({ image, title, caption, height, width, _class } ) =>
+   // `![${alt || ''}](${image || ''}${title ? ` "${title.replace(/"/g, '\\"')}"` : ''})`,
+   `{{< figure src="${image}" title="${title}" caption="${caption}" height="${height}" width="${width}" class="${_class}" >}}`,
+   //${alt || ''}](${image || ''}${title ? ` "${title.replace(/"/g, '\\"')}"` : ''})`,
+  // eslint-disable-next-line react/display-name
+  toPreview: ({ image, title, caption, height, width, _class  }, getAsset) => (
+    /*
+<figure class="leftfloat">
+    <img src="/images/uploads/1_b_Phase_Drehen.JPG" alt="Abb. 1: Die 1b Phase Drehen." width="166" height="161"> <figcaption>
+            <p>Abb. 1: Die 1b Phase Drehen.</p>
+        </figcaption>
+</figure>
+    */
+   `<figure class="${_class}" ><img src="${getAsset(image)}" alt=${caption} width="${width}" height="${height}" > <figcaption><p>${caption}</p></figcaption></figure>`
+  //old  `<img src={getAsset(image) || ''} alt={alt || ''} title={title || ''} />`
+  ),
+  pattern: /^\{\{<\s*figure\s+(src="([^"]+)")?\s*(title="([^"]+)")?\s*(caption="([^"]+)")?\s*(height="([^"]+)")?\s*(width="([^"]+)")?\s*(class="([^"]+)")?\s*>\}\}$/,
+  fields: [
+    {
+      label: 'Image',
+      name: 'image',
+      widget: 'image',
+      media_library: {
+        allow_multiple: false,
+      },
+    },
+    {
+      label: 'Titel',
+      name: 'title',
+    },
+    {
+      label: 'Untertitel',
+      name: 'caption',
+    },
+    {
+      label: 'Hoehe',
+      name: 'height',
+    },
+    {
+      label: 'Breite',
+      name: 'width',
+    },
+    {
+      label: 'Class',
+      name: '_class',
+    },
+  ],
+});
+</script>
 </body>
 </html>
+
