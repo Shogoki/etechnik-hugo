@@ -10,8 +10,51 @@ media_folder: "static/images/uploads" # Media files will be stored in the repo u
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
+  - name: "locations"
+    label: "Kursorte"
+    folder: "content/locations"
+    create: true
+    slug:  "{{slug}}" 
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "locations"}
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Ort", name: "location", widget: "string"}
+      - {label: "Kontaktdaten", name: "body", widget: "markdown"}
+   - name: "team"
+    label: "Team"
+    folder: "content/team"
+    create: true
+    slug:  "{{slug}}" 
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "team"}
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Geboren", name: "birth", widget: "string"}
+      - {label: "E-mail", name: "mail", widget: "string"}
+      - {label: "Telefon", name: "phone", widget: "string"}
+      - {label: "Website", name: "web", widget: "string"}
+      - {label: "Adresse", name: "address", widget: "text"}
+      - {label: "Bild", name: "image", widget: "image"}
+      - {label: "Inhalt", name: "body", widget: "markdown"} #maybe the CV could be done with LIST widget
+  - name: "events"
+    label: "Termine"
+    folder: "content/events"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Kursname", name: "title", widget: "string"}
+      - {label: "Kursbeginn", name: "startdate", widget: "date", format: "DD.MM.YYYY"}
+      - {label: "Kursende", name: "enddate", widget: "date", format: "DD.MM.YYYY"}
+      - {label: "Referent", name: "referent", widget: "string"}
+      - {label: "Kosten", name: "cost", widget: "string"}
+      - label: "Kursort"
+                name: "location"
+                widget: "relation"
+                collection: "locations"
+                searchFields: ["title"]
+                valueField: "title"
+                displayFields: ["title"] 
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
-    label: "Pages" # Used in the UI
+    label: "Seiten" # Used in the UI
     folder: "content/pages" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" #"{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
