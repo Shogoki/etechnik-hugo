@@ -1,13 +1,13 @@
 <!-- Header -->
 {{ partial "header.html" . }}
 
-<!-- Loop through all posts -->
-{{ $paginator := .Paginate (where .Data.Pages "Type" "article") }}
+
+{{ $paginator := .Paginate (.Data.Pages) }}
 {{ range .Paginator.Pages }}
         <h2>{{ .Title }}</h2>
 
         <p>
-            <small>{{ .Date.Format "02.01.2006" }}</small>
+            <small>geboren {{ .Params.birth }}</small>
         </p>
 
         {{ .Summary }}
