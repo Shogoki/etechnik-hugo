@@ -1,0 +1,81 @@
+<!-- Header -->
+{{ partial "header.html" . }}
+<!-- layout: team
+title: Hajo Billen
+birth: irgendwo in der Eifel
+mail: billen@kg-etechnik.de
+phone: 06056/901820
+web: www.kg-etechnik.de
+address: ''
+image: /images/uploads/Bild_hajo_2008_011.jpg-->
+
+<!-- Loop through all posts -->
+<!-- Loop through all posts -->
+
+
+<div class="container" >
+<div class="row" >
+    <div class="card-deck" >
+{{ $paginator := .Paginate (.Data.Pages) }}
+{{ range .Paginator.Pages }}
+<!--
+       - <h2>{{ .Title }}</h2>
+        {{ if isset .Params "birth"}}
+        <p>
+            <small>geboren {{ .Params.birth }}</small>
+        </p>
+        {{end}}
+        {{ if isset .Params "image"}}
+        <img src="{{ .Params.image }}" />
+        {{end}}
+        {{ if isset .Params "address"}}
+        <p>
+            {{ .Params.address }}
+        </p>
+        {{ end }}
+            {{if isset .Params "mail"}}
+            <p><label>E-Mail: </label><a href ="mailto:{{ .Params.mail }}" > {{ .Params.mail }}</a></p>
+            {{end}}
+            {{if isset .Params "phone"}}
+            <p><label>Phone: </label><a href="tel:{{ .Params.phone }}" > {{ .Params.phone }}</a></p>
+            {{end}}
+        </p>
+        {{ if gt (len .Content) 0 }}
+        <p>
+            <a class="readmore" href="{{ .RelPermalink }}">Mehr Details</a>
+        </p>
+        {{end}} -->
+
+        <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="{{ .Params.image }}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{ .Title }}</h5>
+      {{ if isset .Params "birth"}}
+      <h6 class="card-subtitle mb-2 text-muted">geboren {{ .Params.birth }}</h6>
+      {{end }}
+      <p class="card-text"> {{ if isset .Params "address"}}
+        <p>
+            {{ .Params.address }}
+        </p>
+        {{ end }}
+            {{if isset .Params "mail"}}
+            <p><label>E-Mail: </label><a href ="mailto:{{ .Params.mail }}" > {{ .Params.mail }}</a></p>
+            {{end}}
+            {{if isset .Params "phone"}}
+            <p><label>Phone: </label><a href="tel:{{ .Params.phone }}" > {{ .Params.phone }}</a></p>
+            {{end}}
+        </p>
+        {{ if gt (len .Content) 0 }}
+      <div class="card-footer"><a  class="btn" href="{{ .RelPermalink }}" >Mehr Details</a></div>
+        {{ end }}
+    </div>
+  </div>
+
+{{ end }}
+<!-- End loop -->
+</div></div></div>
+<!-- Navigation -->
+{{ partial "page-navigation.html" . }}
+
+<!-- Footer -->
+{{ partial "footer.html" . }}
