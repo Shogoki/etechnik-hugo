@@ -14,5 +14,6 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: public
+  fqdn: etechnik.ghpages.evolution-web.de
   on:
     branch: master
