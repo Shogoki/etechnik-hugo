@@ -5,6 +5,7 @@ install:
     - sudo dpkg -i hugo*.deb
     - pip install Pygments
 
+#build hugo page
 script:
     - hugo
 
