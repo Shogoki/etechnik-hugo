@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: Shogoki/etechnik-hugo # Path to your GitHub repository
-
+  base_url: https://ouauth.srv2.evolution-web.de
 
 #publish_mode: editorial_workflow
 
