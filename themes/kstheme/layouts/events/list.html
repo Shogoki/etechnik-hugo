@@ -1,0 +1,47 @@
+<!-- Header -->
+{{ partial "header.html" . }}
+<div class="container" >
+        <h1>Kurstermine</h1>
+ {{ $paginator := .Paginate (.Data.Pages) }}
+ {{ range .Paginator.Pages }}
+ <!-----
+title: Beispiel-Kurs
+startdate: 17.02.2019
+enddate: 20.02.2019
+referent: Hajo Billen
+cost: auf Anfrage
+location: Bad Soden Salmünster
+---
+
+-->
+            {{ $start := (time .Params.startdate) }}
+            {{ $end := (time .Params.enddate) }}
+            <!---->
+            <div class="row row-striped">
+                <div class="col-2 text-right">
+                <h1 class="display-4"><span class="badge badge-secondary">{{$start.Day}}</span></h1>
+                    <h2>{{$start.Format "Jan"}}</h2>
+                </div>
+                
+                <div class="col-2 text-left">
+                        <h1 class="display-4"><span class="badge badge-secondary">{{ $end.Day }}</span></h1>
+                        <h2>{{$end.Format "Jan"}}</h2>
+                    </div>
+                <div class="col-8">
+                    <h3 class="text-uppercase"><strong>{{.Title}}</strong></h3>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i> {{$start.Weekday}} - {{ $end.Weekday }}</li>
+                        <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> {{.Params.location}}</li>
+                        <li class="list-inline-item"><i class="fa fa-chalkboard-teacher" aria-hidden="true"></i> {{.Params.referent}}</li>
+                        <li class="list-inline-item"><i class="fa fa-euro-sign" aria-hidden="true"></i> {{ .Params.cost }}</li>
+                    </ul>
+                    <p>{{ .Content }}</p>
+                </div>
+            </div>
+            {{end}}
+        </div>
+<!-- Navigation -->
+{{ partial "page-navigation.html" . }}
+
+<!-- Footer -->
+{{ partial "footer.html" . }}

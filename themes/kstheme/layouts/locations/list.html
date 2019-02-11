@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 <div class="container" >
+    <h1>Kursorte</h1>
  {{ $paginator := .Paginate (.Data.Pages) }}
  <div id="accordion">
 {{ range $index, $element := .Paginator.Pages }}
