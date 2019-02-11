@@ -4,3 +4,21 @@ title = "E-Technik"
 theme = "kstheme"
 [params]
   summary = "Das Hanke-Konzept"
+[menu]
+[[menu.main]]
+    identifier = "Team"
+    name = "Team"
+    url = "/team/"
+    weight = 500
+[[menu.main]]
+    identifier = "locations"
+    name = "Kursorte"
+    url = "/locations/"
+    weight = 500
+    parent = "Fortbildungen"
+[[menu.main]]
+    identifier = "evets"
+    name = "Termine"
+    url = "/events/"
+    weight = 500
+    parent = "Fortbildungen"
