@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http:///etechnik.ghpages.evolution-web.de/"
 languageCode = "de-de"
 title = "E-Technik"
 theme = "kstheme"
