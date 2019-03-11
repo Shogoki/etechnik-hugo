@@ -10,12 +10,12 @@ theme = "kstheme"
     name = "Team"
     url = "/team/"
     weight = 500
-[[menu.main]]
-    identifier = "locations"
-    name = "Kursorte"
-    url = "/locations/"
-    weight = 500
-    parent = "Fortbildungen"
+#[[menu.main]]
+#    identifier = "locations"
+#    name = "Kursorte"
+#    url = "/locations/"
+#    weight = 500
+#    parent = "Fortbildungen"
 #[[menu.main]]
 #    identifier = "evets"
 #    name = "Termine"
