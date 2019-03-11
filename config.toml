@@ -16,9 +16,9 @@ theme = "kstheme"
     url = "/locations/"
     weight = 500
     parent = "Fortbildungen"
-[[menu.main]]
-    identifier = "evets"
-    name = "Termine"
-    url = "/events/"
-    weight = 500
-    parent = "Fortbildungen"
+#[[menu.main]]
+#    identifier = "evets"
+#    name = "Termine"
+#    url = "/events/"
+#    weight = 500
+#    parent = "Fortbildungen"
