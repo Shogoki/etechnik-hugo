@@ -4,6 +4,20 @@
     margin-top: 0; /* remove the gap so it doesn't close
  }*/
 
+ .logo-wrapper {
+  width: 20%;
+display: table-cell;
+vertical-align: middle;
+
+}
+.logo-wrapper img{
+max-width:100%;
+
+}
+ .courier {
+  font-family: courier;
+}
+
  .leftfloat {
     float: left;
      margin-right: 10px;
@@ -13,6 +27,13 @@
  table, th, td {
     border: 1px solid black;
   }
+
+
+.headercontainer {
+  width:80%;
+  text-align: center;
+  display: table-cell;
+}
 
   
 
