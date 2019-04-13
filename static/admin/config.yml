@@ -79,3 +79,29 @@ collections:
                 displayFields: ["title"] 
       #- {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Inhalt", name: "body", widget: "markdown"}
+  - name: "endpages" # Used in routes, e.g., /admin/collections/blog
+    label: "Endseiten" # Used in the UI
+    folder: "content/endpages" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" #"{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "pages"}
+      - {label: "Titel", name: "title", widget: "string"}
+#     - {label: "Publish Date", name: "date", widget: "datetime"}
+      - label: "Menü"
+        name: "menu"
+        widget: "object"
+        fields:
+          - label: "Menüende"
+            name: "end"
+            widget: "object"
+            fields: 
+              - label: "Übergeordnet"
+                name: "parent"
+                widget: "relation"
+                collection: "endpages"
+                searchFields: ["title"]
+                valueField: "title"
+                displayFields: ["title"] 
+      #- {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Inhalt", name: "body", widget: "markdown"}
