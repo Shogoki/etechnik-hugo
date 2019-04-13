@@ -1,7 +1,7 @@
 ---
 title: Impressum
 menu:
-    main:
+    end:
         parent:
 ---
 

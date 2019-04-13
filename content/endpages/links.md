@@ -1,7 +1,7 @@
 ---
 title: Links
 menu: 
-    main:
+    end:
         parent:
 ---
 Interessante Links zur Krankengymnastik und E.-Technik

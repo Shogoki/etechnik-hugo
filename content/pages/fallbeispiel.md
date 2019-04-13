@@ -49,24 +49,13 @@ Aste für Skoliose rechts konvex BWS
 
 Und links konvex LWS
 
-**TODO Abb. 5: Kriechmuster im Sitz**
+{{< figure src="/images/uploads/kriechmuster.jpg" caption="Abb. 5: Kriechmuster im Sitz." height="209" width="145" class="leftfloat">}}
 
  
 
 Alltagsmotorische Anbahnung für die posturale Kontrolle
 
  
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Aus physioonline  Georg Thieme Verlag Stuttgart 2005
 
 Dieses Dokument ist nur für den persönlichen Gebrauch bestimmt und darf in keiner Form an Dritte weitergegeben werden

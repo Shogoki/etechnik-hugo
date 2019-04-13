@@ -1,7 +1,7 @@
 ---
 title: Datenschutz
 menu:
-    main:
+    end:
         parent:
 ---
 		
