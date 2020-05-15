@@ -62,6 +62,8 @@ menu:
 * Heiko Nachtigall Klinik Leezen Wittgensteiner Platz 1 19067 Leezen (bei Schwerin)
 * Dagmar Krumm Neurologische Frühreha Wittgensteiner Platz 1 19067 Leezen
 
+</details>
+
 <details><summary>Postleitzahlbereich 20000</summary>
 
 * Ann-Kristin Reutershan Stadthausbrücke 1 20089 Hamburg
@@ -169,6 +171,7 @@ menu:
 * Martina Schmied Koppelweg 5 29591 Römstedt
 * Cordula Kopf Meßhausen 5 29614 Soltau 
 
+</details>
 <details><summary>Postleitzahlbereich 30000</summary>
 
 * Lucie Schumacher Im Mailand 14 30082 Garbsen
@@ -413,6 +416,7 @@ menu:
 * Diana Gelhoff Friesenstr.52 39108 Magdeburg
 * Manuela Born Mutter- Kind- Kurklinik 39619 Arendsee 
 
+</details>
 <details><summary>Postleitzahlbereich 40000</summary>
 
 * Ute Bargfrede Merkurstr. 36a 40223 Düsseldorf
@@ -552,6 +556,7 @@ menu:
 * Annette Barlage-Eikens Mittelstr. 15 49770 Dohren
 * Barbara Pawelzyk Breslauer Str. 12 49770 Herzlake 
 
+</details>
 <details><summary>Postleitzahlbereich 50000</summary>
 
 * Oda Ohnesorge Ahornstr. 6 50169 Kerpen
@@ -705,6 +710,7 @@ menu:
 * Sabine Bette-Landgraf  Brüderkrankenhaus St. Josef 59939 Olsberg/Sauerland
 * Iris Bieker Ruhrstraße 3 59955 Wintersberg
 
+</details>
 <details><summary>Postleitzahlbereich 60000</summary>
 
 * Uwe Riemann riefit-Physiotherapie WESTEND, Zimmerweg 6, 60325 Frankfurt
@@ -874,6 +880,7 @@ menu:
 * Klaus Trier Praxis für Physiotherapie Königsbergerstr. 18-22 69469 Weinheim
 * Mariel Trier Praxis für Physiotherapie Königsbergerstr. 18-22 69469 Weinheim 
 
+</details>
 <details><summary>Postleitzahlbereich 70000</summary>
 
 * Katja-Rose Hohensteiner Kirchstraße 19 70102 Freiburg
@@ -945,6 +952,7 @@ menu:
 * Eberhard Büttner Bergseestr.39 79713 Bad Säckingen
 * Mechthilde Kohl Praxis für Krankengymnastik I. Zeller Schaffhauserstr. 27 79798 Jestetten 
 
+</details>
 <details><summary>Postleitzahlbereich 80000</summary>
 
 * Christina Lux Deutsches Herzzentrum 80636 München
@@ -1030,6 +1038,7 @@ menu:
 * Christian Baier Fachklinik Ichenhausen Krumbacher Straße 45 89335 Ichenhausen
 * Vanessa Schatz Fachklinik Ichenhausen Krumbacher Starße 45 89335 Ichenhausen 
 
+</details>
 <details><summary>Postleitzahlbereich 90000</summary>
 
 * Denis Böttger Krankengymnastik S. Gerlach Himpfelshofstr. 6 90429 Nürnberg
@@ -1096,6 +1105,7 @@ menu:
 * Christopher Erbe Median Klinik Badeweg 2 99955 Bad Tennstedt Tel. 036041/35633
 * Beatrix Steinau Median Klinik Badeweg 2 99955 Bad Tennstedt Tel. 036041/35544 
 
+</details>
 <details><summary>Schweiz</summary>
 
 * Kirsten Pohlmeyer Laurenzenvorstadt CH-5000 Aarau
@@ -1107,6 +1117,7 @@ menu:
 * Sylke Kuntze Forchstr. 340 CH-8008 Zürich
 * Anne Bärtels Forchstr. 340 CH-8008 Zürich 
 
+</details>
 <details><summary>Belgien</summary>
 
 * Gerhard Backhaus Waldstr. 12 B-4710 Lontzen-Busch
