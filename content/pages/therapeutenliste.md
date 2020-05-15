@@ -6,7 +6,7 @@ menu:
 ---
 ## Adressenliste der zertifizierten E.- Technik Physiotherapeuten nach dem Hanke Konzept
 
-**Stand: 31.12.2016**
+**Stand: 15.05.2020**
 
 <details><summary>Postleitzahlbereich 00000</summary>
 
@@ -61,7 +61,6 @@ menu:
 * Nadine Stüwe Helios Kliniken Wismarsche- Str. 397 19049 Schwerin
 * Heiko Nachtigall Klinik Leezen Wittgensteiner Platz 1 19067 Leezen (bei Schwerin)
 * Dagmar Krumm Neurologische Frühreha Wittgensteiner Platz 1 19067 Leezen
-</details>
 
 <details><summary>Postleitzahlbereich 20000</summary>
 
@@ -169,7 +168,6 @@ menu:
 * Elisabeth Breme Salamanderweg 25 29574 Ebstdorf
 * Martina Schmied Koppelweg 5 29591 Römstedt
 * Cordula Kopf Meßhausen 5 29614 Soltau 
-</details>
 
 <details><summary>Postleitzahlbereich 30000</summary>
 
@@ -368,7 +366,7 @@ menu:
 * Christina Weiß Echternstraße 40 38100 Braunschweig
 * Christian Ebeling Therapie und Therme Fallersleber-Tor-Wall 21-22 38100 Braunschweig
 * Grit Eppers Fasanenstr. 46 38102 Braunschweig
-* Michaela Peters Husarenstraße 14 38102 Braunschweig
+* Michaela Peters Praxis am Löwenwall Löwenwall 10 38102 Braunschweig
 * Alexandra Kalliardos PT Praxis R. Janko- Kallirdos Franz-Liszt-Str. 17 38106 Braunschweig
 * Karsten Bischoff Grubenweg 4 38112 Braunschweig
 * Svantje Hille Petristraße 11 38118 Braunschweig
@@ -414,7 +412,6 @@ menu:
 * Ulrike Dorff Asklepios KLinik Schildautal Karl-Heroldt-Str. 1 38723 Seesen
 * Diana Gelhoff Friesenstr.52 39108 Magdeburg
 * Manuela Born Mutter- Kind- Kurklinik 39619 Arendsee 
-</details>
 
 <details><summary>Postleitzahlbereich 40000</summary>
 
@@ -554,7 +551,6 @@ menu:
 * Doris Lindemann Georgstr. 28 49744 Geeste
 * Annette Barlage-Eikens Mittelstr. 15 49770 Dohren
 * Barbara Pawelzyk Breslauer Str. 12 49770 Herzlake 
-</details>
 
 <details><summary>Postleitzahlbereich 50000</summary>
 
@@ -705,10 +701,9 @@ menu:
 * Angelika Backofa Schönfeld Wierwaldstr.32 59581Warstein
 * Astrid Mand-Linke Könogstr. 9 59821 Arnsberg
 * Friedel Lohmann Settmecke 10 59846 Sundern
-* Silke Gerlach Vereinstraße 24 59909 Bestwig
+* Silke Hengsbach Mühlenstr 2 59909 Bestwig
 * Sabine Bette-Landgraf  Brüderkrankenhaus St. Josef 59939 Olsberg/Sauerland
 * Iris Bieker Ruhrstraße 3 59955 Wintersberg
-</details>
 
 <details><summary>Postleitzahlbereich 60000</summary>
 
@@ -718,7 +713,6 @@ menu:
 * Claudia Schmidt BG Unfallklinik Frankfurt Friedberger Landstr. 480 60389 Frankfurt
 * Ute Kottwitz BG Unfallklinik Frankfurt Friedberger Landstr. 480 60389 Frankfurt
 * Natascha Heyn BG Unfallklinik Frankfurt Friedberger Landstr. 480 60389 Frankfurt
-* Petra Weber St. Katharinen Krankenhaus Seckbacher Landstr. 64 60389 Frankfurt
 * Ulrike Kozalla PT Praxis S. Eisbrenner und P.. Dupont Tituscorso 3 A 60439 Frankfurt
 * Petra Zimmermann- Jacobi Physiotherapie Eisbrenner u Dupont Tituscorso 2-6 60439 Frankfurt
 * Klüppel Dagmar Gartenstr. 2 61194 Niddatal3
@@ -730,8 +724,8 @@ menu:
 * Verena Hornung In den Hohlgärten 22 a 63505 Langenselbold 06184/547264
 * Harald Hildebrandt Main Reha Krammig Schleusenstr. 15 63512 Hainburg
 * Sabine Rist Hans-Thoma-Str.11 60596 Frankfurt
-* Christa Mittwollen PT Praxis Bürgerstr. 10 63075 Offenbach
-* Anika Jung Frühlingsaustr. 2 63110 Rodgau
+* Christa Mittwollen PT Praxis Bürgerstr. 10  63075 Offenbach
+* Anika Daube (geb. Jung ) Falkensteiner Weg 14 63110 Rodgau 0178 1943820
 * Doreen von Ende Main-Reha Rheinstr. 2a 63533 Mainhausen
 * Anne Schöppe Main- Reha Rheinstr. 2a 63533 Mainhausen
 * Isabella Friedrich Main- Reha Rheinstr. 2a 63533 Mainhausen
@@ -786,7 +780,7 @@ menu:
 * Ulrich Krämer Rehaklinik St. Marien 63628 Bad Soden- Salmünster
 * Julia Müller Salztal Klinik 63628 Bad Soden- Salmünster
 * Erika Rademacher Knappschaftsklinik Knappschaftsweg 2 63628 Bad Soden- Salmünster
-* Christiane Billen- Mertes Physio Osteo Sport  Sebastian Herbststr. 7 63628 Bad Soden-Salmünster [info@physio-osteo-sport.de]* (mailto:info@physio-osteo-sport.de)
+* Christiane Billen- Mertes Physio Osteo Sport  Sebastian Herbststr. 7 63628 Bad Soden-Salmünster \[info@physio-osteo-sport.de]* (mailto:info@physio-osteo-sport.de)
 * Ulrike Kruse 63628 Bad Soden-Salmünster
 * Heiko Möller Badestr. 4 63628 Bad Soden Salmünster
 * Sabine Teichmann  ORTHOMEDICA Hans-Streif Str.4 63628 Bad Soden-Salmünster
@@ -879,7 +873,6 @@ menu:
 * Daniela Morr Reha Zentrum Neckar- Odenwald Kellereistr. 32-34 69412 Eberbach
 * Klaus Trier Praxis für Physiotherapie Königsbergerstr. 18-22 69469 Weinheim
 * Mariel Trier Praxis für Physiotherapie Königsbergerstr. 18-22 69469 Weinheim 
-</details>
 
 <details><summary>Postleitzahlbereich 70000</summary>
 
@@ -951,12 +944,12 @@ menu:
 * Katja Rose-Hohensteiner  Stühlinger Str. 26  79106 Freiburg
 * Eberhard Büttner Bergseestr.39 79713 Bad Säckingen
 * Mechthilde Kohl Praxis für Krankengymnastik I. Zeller Schaffhauserstr. 27 79798 Jestetten 
-</details>
 
 <details><summary>Postleitzahlbereich 80000</summary>
 
 * Christina Lux Deutsches Herzzentrum 80636 München
-* Gabriele Gerg-Dürr Reha-Sport- Schwabing 80802 München
+* Petra Schiedebaum Helios Klinikum Münschen West, Steinerweg 5 München
+* Gabriele Gerg-Dürr Physiotherapie am Promenadeplatz 80333 München
 * Tobias Maier Praxis für Physiotherapie G. Windwehr Milberthofener Str. 90 80807 München
 * Anette Strieck Hauberrißer Str. 8 81545 München
 * Astrid Kaufmann Ahornring 48 82024 Taufkirchen
@@ -1036,7 +1029,6 @@ menu:
 * Andrea Schmidtbauer Fachklinik Ichenhausen Krumbacher Straße 45 89335 Ichenhausen
 * Christian Baier Fachklinik Ichenhausen Krumbacher Straße 45 89335 Ichenhausen
 * Vanessa Schatz Fachklinik Ichenhausen Krumbacher Starße 45 89335 Ichenhausen 
-</details>
 
 <details><summary>Postleitzahlbereich 90000</summary>
 
@@ -1103,7 +1095,6 @@ menu:
 * Yvonne Albert Median Klinik Badeweg 2 99955 Bad Tennstedt
 * Christopher Erbe Median Klinik Badeweg 2 99955 Bad Tennstedt Tel. 036041/35633
 * Beatrix Steinau Median Klinik Badeweg 2 99955 Bad Tennstedt Tel. 036041/35544 
-</details>
 
 <details><summary>Schweiz</summary>
 
@@ -1115,7 +1106,6 @@ menu:
 * Christa Pütz Gotthardstr. 14 CH-6460 Altdorf
 * Sylke Kuntze Forchstr. 340 CH-8008 Zürich
 * Anne Bärtels Forchstr. 340 CH-8008 Zürich 
-</details>
 
 <details><summary>Belgien</summary>
 
@@ -1127,7 +1117,6 @@ menu:
 <details><summary>Frankreich</summary>
 
 * Aurelie Kohl 67000 Strasbourg 0033 388160172
-</details>
 
 <details><summary>United Kingdom</summary>
 
