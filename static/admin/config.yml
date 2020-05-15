@@ -77,7 +77,7 @@ collections:
                 searchFields: ["title"]
                 valueField: "title"
                 displayFields: ["title"] 
-                default: ""
+                required: false
       #- {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Inhalt", name: "body", widget: "markdown"}
   - name: "endpages" # Used in routes, e.g., /admin/collections/blog
@@ -104,5 +104,6 @@ collections:
                 searchFields: ["title"]
                 valueField: "title"
                 displayFields: ["title"] 
+                required: false
       #- {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Inhalt", name: "body", widget: "markdown"}
