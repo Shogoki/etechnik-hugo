@@ -369,7 +369,7 @@ menu:
 * Christina Weiß Echternstraße 40 38100 Braunschweig
 * Christian Ebeling Therapie und Therme Fallersleber-Tor-Wall 21-22 38100 Braunschweig
 * Grit Eppers Fasanenstr. 46 38102 Braunschweig
-* Michaela Peters Praxis am Löwenwall Löwenwall 10 38102 Braunschweig
+* Michaela Peters Praxis am Löwenwall Löwenwall 10 38100 Braunschweig
 * Alexandra Kalliardos PT Praxis R. Janko- Kallirdos Franz-Liszt-Str. 17 38106 Braunschweig
 * Karsten Bischoff Grubenweg 4 38112 Braunschweig
 * Svantje Hille Petristraße 11 38118 Braunschweig
@@ -955,9 +955,9 @@ menu:
 </details>
 <details><summary>Postleitzahlbereich 80000</summary>
 
-* Christina Lux Deutsches Herzzentrum 80636 München
-* Petra Schiedebaum Helios Klinikum Münschen West, Steinerweg 5 München
 * Gabriele Gerg-Dürr Physiotherapie am Promenadeplatz 80333 München
+* Petra Schiedebaum Helios Klinikum Münschen West, Steinerweg 5 München
+* Christina Lux Deutsches Herzzentrum 80636 München
 * Tobias Maier Praxis für Physiotherapie G. Windwehr Milberthofener Str. 90 80807 München
 * Anette Strieck Hauberrißer Str. 8 81545 München
 * Astrid Kaufmann Ahornring 48 82024 Taufkirchen
