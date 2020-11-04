@@ -897,11 +897,16 @@ menu:
 * Karen Sammet Praxis für Physiotherapie S. v. Schöter- Braun Erbstetter Str. 8-11 71522 Backnang
 * Heike Lier Gartenstr. 8 71672 Marbach
 * Maren Fischer Hakenweg 20 72070 Tübingen
-* Kerstin Desoi BG Unfallklinik Tübingen Am Schnarrenberg 95 72074 Tübingen
-* Claudius Suck a. d. Rain 19 72108 Rottenburg
-* Bianca Rahn Johann-Gottfried-Herder-Str. 14, 72250 Freudenstadt
-* Sandra Ruoff  Sonderschule der Mariaberger Heine e.V. 72501 Gammertingen
-* Heike Schmid-Spindler Hauffstr. 8 72537 Mehrstetten
+
+  Kerstin Desoi BG Unfallklinik Tübingen Am Schnarrenberg 95 72074 Tübingen\
+  \
+  Claudius Suck Friedrichstraße 11/7 72131 Ofterdingen
+  \
+  Bianca Rahn Johann-Gottfried-Herder-Str. 14, 72250 Freudenstadt
+
+  Sandra Ruoff  Sonderschule der Mariaberger Heine e.V. 72501 Gammertingen
+
+  Heike Schmid-Spindler Hauffstr. 8 72537 Mehrstetten
 * Gaby Axnix Immanuel-Kant-Str. 31 72574 Bad Urach
 * Irene Reuter KKH Reutlingen  Steinenbergstraße 31 72764 Reutlingen
 * Sigrid Böhmer Steingaustr.54 73278 Schlierbach
