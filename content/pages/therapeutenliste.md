@@ -1054,6 +1054,7 @@ menu:
 * Gabriele Stöcker Rehazentrum Medicus Allersberger Str. 85-89 90461 Nürnberg
 * Karin Heimann Klinikum Süd Nürnberg 90471 Nürnberg
 * Monika Peukes-Müller Eisenstr. 17 90542 Eckental
+* Wibke Lerch Physiotherapie Schlemmer Obere Karlstr. 491052 Erlangen Tel. 09131 22500
 * Bettina Redl Löhestr. 44 91054 Erlangen
 * Sabine Simmendinger Fichtestr. 5 91054 Erlangen
 * Nadine Becker Buchenbacher Anlage 27 91056 Erlangen
@@ -1062,7 +1063,6 @@ menu:
 * Cindy Morgenstern Klinkum am Europakanal 91056 Erlangen
 * Stephanie Richter Rehaklinik Herzogenaurach In der Reuth 1 91074 Herzogenaurach
 * Heike Persich Rehaklinik Herzogenaurach In der Reuth 1 91074 Herzogenaurach
-* Wibke Sturm Rehaklinik Herzogenaurach In der Reuth 1 91074 Herzogenaurach
 * Astrid Saßmannshausen Fachklinik Herzogenaurach In der Reuth 1 91074 Herzogenaurach
 * Claudia Mesinovic Praxis für Physiotherapie U. Köcker Brauhausstr. 15 91522 Ansbach
 * Patricia Groth Am Rohrweiher 11 92242 Hirschau
