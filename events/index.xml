@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on E-Technik</title>
+    <link>http://etechnik.ghpages.evolution-web.de/events/</link>
+    <description>Recent content in Events on E-Technik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    
+	<atom:link href="http://etechnik.ghpages.evolution-web.de/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Beispiel-Kurs</title>
+      <link>http://etechnik.ghpages.evolution-web.de/events/beispiel-kurs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://etechnik.ghpages.evolution-web.de/events/beispiel-kurs/</guid>
+      <description>Hier fehlt die Kursbeschreibung</description>
+    </item>
+    
+  </channel>
+</rss>

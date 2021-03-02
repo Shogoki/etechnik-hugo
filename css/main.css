@@ -1,0 +1,52 @@
+
+/*.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close
+ }*/
+
+ .logo-wrapper {
+  width: 20%;
+display: table-cell;
+vertical-align: middle;
+
+}
+.logo-wrapper img{
+max-width:100%;
+
+}
+ .courier {
+  font-family: courier;
+}
+
+ .leftfloat {
+    float: left;
+     margin-right: 10px;
+     clear: left;
+ }
+
+ table, th, td {
+    border: 1px solid black;
+  }
+
+
+.headercontainer {
+  width:80%;
+  text-align: center;
+  display: table-cell;
+}
+
+  
+
+  .row-striped:nth-of-type(odd){
+   background-color: #efefef;
+   border-left: 4px #000000 solid;
+ }
+ 
+ .row-striped:nth-of-type(even){
+   background-color: #ffffff;
+   border-left: 4px #efefef solid;
+ }
+ 
+ .row-striped {
+     padding: 15px 0;
+ }

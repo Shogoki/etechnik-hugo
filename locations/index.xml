@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Locations on E-Technik</title>
+    <link>http://etechnik.ghpages.evolution-web.de/locations/</link>
+    <description>Recent content in Locations on E-Technik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    
+	<atom:link href="http://etechnik.ghpages.evolution-web.de/locations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spessart-Therme Therma Sol</title>
+      <link>http://etechnik.ghpages.evolution-web.de/locations/spessart-therme-therma-sol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://etechnik.ghpages.evolution-web.de/locations/spessart-therme-therma-sol/</guid>
+      <description>Hajo Billen
+Weinstr. 41,
+63628 Bad Soden-Salmünster,
+Tel.: (06056) 901820
+email: billen@kg-etechnik.de
+www.kg-etechnik.de</description>
+    </item>
+    
+    <item>
+      <title>Spessart-Therme Therma Sol mal anders</title>
+      <link>http://etechnik.ghpages.evolution-web.de/locations/spessart-therme-therma-sol.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://etechnik.ghpages.evolution-web.de/locations/spessart-therme-therma-sol.1/</guid>
+      <description>Hajo Billen
+Weinstr. 41,
+63628 Bad Soden-Salmünster,
+Tel.: (06056) 901820
+email: billen@kg-etechnik.de
+www.kg-etechnik.de</description>
+    </item>
+    
+  </channel>
+</rss>

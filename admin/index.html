@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/cms.css">
+    <title>Content Manager</title>
+</head>
+<body>
+  
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+<!-- script that is adjusting my preview to only show title and Body -->
+  <script>
+      var PostPreview = createClass({
+        render: function() {
+          var entry = this.props.entry;
+          return h('div', {},
+            h('div', { },
+                h('h1', { }, 
+                  h('span', { }, entry.getIn(['data', 'title']))
+                ),
+              ),
+              h('div', {className: "post-body"},
+                h('div', { }, this.props.widgetFor('body'))
+              )
+            )
+          
+          }
+      });
+      
+      CMS.registerPreviewTemplate("pages", PostPreview);
+      </script>
+<!-- creating an Editorcomponent for the FIGURE shotcode of Hugo-->
+<script>
+CMS.registerEditorComponent({
+
+  label: 'Figure',
+  id: 'figure',
+  fromBlock: match =>
+    match && {
+      image: match[2],
+      title: match[4],
+      caption: match[6],
+      height: match[8],
+      width: match[10],
+      _class: match[12]
+    },
+  toBlock: ({ image, title, caption, height, width, _class } ) =>
+   // `![${alt || ''}](${image || ''}${title ? ` "${title.replace(/"/g, '\\"')}"` : ''})`,
+   `{{< figure src="${image}" title="${title}" caption="${caption}" height="${height}" width="${width}" class="${_class}" >}}`,
+   //${alt || ''}](${image || ''}${title ? ` "${title.replace(/"/g, '\\"')}"` : ''})`,
+  // eslint-disable-next-line react/display-name
+  toPreview: ({ image, title, caption, height, width, _class  }, getAsset) => (
+    /*
+<figure class="leftfloat">
+    <img src="/images/uploads/1_b_Phase_Drehen.JPG" alt="Abb. 1: Die 1b Phase Drehen." width="166" height="161"> <figcaption>
+            <p>Abb. 1: Die 1b Phase Drehen.</p>
+        </figcaption>
+</figure>
+    */
+   `<figure class="${_class}" ><img src="${getAsset(image)}" alt=${caption} width="${width}" height="${height}" > <figcaption><p>${caption}</p></figcaption></figure>`
+  //old  `<img src={getAsset(image) || ''} alt={alt || ''} title={title || ''} />`
+  ),
+  pattern: /^\{\{<\s*figure\s+(src="([^"]+)")?\s*(title="([^"]+)")?\s*(caption="([^"]+)")?\s*(height="([^"]+)")?\s*(width="([^"]+)")?\s*(class="([^"]+)")?\s*>\}\}$/,
+  fields: [
+    {
+      label: 'Image',
+      name: 'image',
+      widget: 'image',
+      media_library: {
+        allow_multiple: false,
+      },
+    },
+    {
+      label: 'Titel',
+      name: 'title',
+      default: '',
+    },
+    {
+      label: 'Untertitel',
+      name: 'caption',
+      default: '',
+    },
+    {
+      label: 'Höhe',
+      name: 'height',
+      widget: "number",
+      valueType: "int",
+    },
+    {
+      label: 'Breite',
+      name: 'width',
+      widget: "number",
+      valueType: "int",
+    },
+    {
+      label: 'Textfluss',
+      name: '_class',
+      widget: "select",
+      options: [{ label: "Standard", value: "" }, { label: "Links neben Text", value: "leftfloat" }, { label: "Rechts neben Text", value: "rightfloat" }],
+    },
+  ],
+});
+CMS.registerPreviewStyle('css/preview.css');
+</script>
+</body>
+</html>
+
