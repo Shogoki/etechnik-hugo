@@ -1,7 +1,7 @@
 ---
 layout: team
 title: Peter Hanke
-birth: am 5. März 1937 in Berlin
+birth: am 5. März 1937 in Berlin   Verstorben 1923
 address: |-
   Am Kirchberg 12
   31737 Rinteln
