@@ -987,8 +987,10 @@ menu:
 * Tanja Dreier Schmiedweg 12a 83734 Hausham
 * Christine Kohl Fachklinik Bad Heilbrunn Wörnerweg 30 83670 Bad Heilbrunn
 * Claudia Müller Kochelerstr.2 83670 Bad Heilbrunn
-* Barbara Tenge Wörnerweg 30 83670 Bad Heilbrunn
-* Conny Heurich Sonnenfeldweg /Klinik 83707 Bad Wiessee
+* Barbara Tenge Conny Heurich Sonnenfeldweg /Klinik 83707 Bad Wiessee
+*
+*
+*
 * Susanne Schmied Santjohanserstr.39 83707 Bad Wiessee
 * Jutta Strecker Ringbergstr.43 83707 Bad Wiessee
 * Björn Ginster Rinbergstr.43 83707 Bad Wiessee
@@ -996,6 +998,7 @@ menu:
 * Theresa Vogl Watzmannstraße 35 84034 Landshut
 * Kristin Krömke Sonnenstr. 45 84061 Ergoldsbach Tel. 0173/6054293
 * Susann Sieger Bucherstr. 4 85110 Kipfenberg
+B﻿arbara Tenge Pras Back in Balance, Ettinger Str. 23a, 85057 Ingolstadt
 * Sylvia Kuttenreich Ettingerstr. 23 a  85057 Ingolstadt
 * Viorica Klein PT Praxis Pasdzior Hauptstr. 48 6512 Sulzbach
 * Christine Ergott Therapiezentrum Lerchenfeld Gute Anger 15 85356 Freising
