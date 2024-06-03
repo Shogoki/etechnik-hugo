@@ -448,6 +448,7 @@ menu:
 * Edeltraut Zimmermann Kölnerstr. 110 42897 Remscheid
 * Silke Bornefeld Lindenallee 19c 42899 Remscheid
 * Cristina Rode PT Praxis Sladek Danuta Wickeder Str. 298 44319 Dortmund
+Bianca Schichel (damals Binte) 59192 Bergkamen Praxis 44135 Dortmund
 * Ingrid Francsovies Von Kettlerstr. 19 44623 Herne
 * Annemarie Többen Sraßburgerstr. 39 44623 Herne
 * Dorit Kinscher Praxis Baum Schulte-Siepmann Hauptstraße 215 44649 Herne
