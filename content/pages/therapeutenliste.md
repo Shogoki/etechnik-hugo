@@ -1015,7 +1015,7 @@ B﻿arbara Tenge Pras Back in Balance, Ettinger Str. 23a, 85057 Ingolstadt
 * Silke Pucknus PT Praxis El Masry/Daubermann  Bgm- Aurnhammer- Str. 6 86199 Augsburg
 * Andrea Koebe PT Praxis D. Richter Hindenburgstraße 17 86356 Neusäß
 * Jutta Blösch  Praxi Nuscheler Mozartstraße 36 86381 Krumbach
-* Katharina Keck PT Praxis Gerhäußer Marktplatz 5 86415 Mering Tel. 08233 /31144
+* Katharina Keck PT Praxis Gerhäußer, Mering, Tel:08233 31144.
 * Marc Schneider Dominikus Ringeisenwerk PT-Abt. 86515 Ursberg
 * Sr. M. Passithea Primbs Dominikus Ringeisenwerk PT-Abt. 86515 Ursberg
 * Holger Kringer Augsburger Straße 6 86551 Aichach
