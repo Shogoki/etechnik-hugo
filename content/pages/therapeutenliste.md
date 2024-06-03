@@ -448,7 +448,7 @@ menu:
 * Edeltraut Zimmermann Kölnerstr. 110 42897 Remscheid
 * Silke Bornefeld Lindenallee 19c 42899 Remscheid
 * Cristina Rode PT Praxis Sladek Danuta Wickeder Str. 298 44319 Dortmund
-Bianca Schichel (damals Binte) 59192 Bergkamen Praxis 44135 Dortmund
+* Bianca Schichel (damals Binte) 59192 Bergkamen Praxis 44135 Dortmund
 * Ingrid Francsovies Von Kettlerstr. 19 44623 Herne
 * Annemarie Többen Sraßburgerstr. 39 44623 Herne
 * Dorit Kinscher Praxis Baum Schulte-Siepmann Hauptstraße 215 44649 Herne
@@ -530,7 +530,7 @@ Bianca Schichel (damals Binte) 59192 Bergkamen Praxis 44135 Dortmund
 * Rita Kröger Grenzweg 9 49751 Spahnharrenstätte
 * Barbara Temme Elchbogen 17a 44892 Bochum Langendreen
 * Thomas Sprenkel 48147 Münster
-* Karin Lütge Zutelgte Geriatrische Klinik Maria Frieden Am Krankenhaus 1 48291 Telgte
+* Karin Lütge Zutelgte Geriatrische Klinik Maria Frieden Am Krankenhaus 1 48291 
 * Klaus Debus Katharinstr. 65/67 49078 Osnabrück
 * Nadja Cermak Limberger Str. 5A 49080 Osnabrück
 * Wolfgang Husack Am Vogelsang 24 49088 Osnabrück
@@ -717,7 +717,7 @@ Bianca Schichel (damals Binte) 59192 Bergkamen Praxis 44135 Dortmund
 * Uwe Riemann riefit-Physiotherapie WESTEND, Zimmerweg 6, 60325 Frankfurt
 * Sigrun Plant BG Unfallklinik Frankfurt Friedberger Landstr. 430 60389 Frankfurt
 * Melanie Koch BG Unfallklinik Frankfurt Friedberger Landstr. 480 60389 Frankfurt
-* Claudia Schmidt BG Unfallklinik Frankfurt Friedberger Landstr. 480 60389 Frankfurt
+* Claudia Schmidt BG Unfallklinik Friedberger Landstr. 480 60389 Frankfurt
 * Ute Kottwitz BG Unfallklinik Frankfurt Friedberger Landstr. 480 60389 Frankfurt
 * Natascha Heyn BG Unfallklinik Frankfurt Friedberger Landstr. 480 60389 Frankfurt
 * Ulrike Kozalla PT Praxis S. Eisbrenner und P.. Dupont Tituscorso 3 A 60439 Frankfurt
@@ -767,7 +767,7 @@ Bianca Schichel (damals Binte) 59192 Bergkamen Praxis 44135 Dortmund
 * Sandra Riede Neuro- Orthopädisches Reha Zentrum Spessartstr, 20 63619 Bad Orb
 * Ursula Gruner  Neuro-Orthopädisches Reha Zentrum Spessartstr. 20 63619 Bad Orb
 * Corinna Kuhnen Neuro-Orthopädisches Reha Zentrum Spessartstr. 20 63619 Bad Orb
-* Frank Missenharter Neuro-Orthopädisches Reha Zentrum Spessartstr. 20 63619 Bad Orb
+* Frank Missenharter Spessartklinik 63619 Bad Orb
 * Jennifer Becker Neuro-Orthopädisches Reha Zentrum Spessartstr. 20 63619 Bad Orb
 * Jana voigt Neuro- Orthopädisches Reha Zentrum Spessartstr. 20 63619 Bad Orb
 * Nancy Zaar  Neuro-Orthopädisches Reha Zentrum Spessartstr. 20,63619 Bad Orb
@@ -989,18 +989,14 @@ Bianca Schichel (damals Binte) 59192 Bergkamen Praxis 44135 Dortmund
 * Christine Kohl Fachklinik Bad Heilbrunn Wörnerweg 30 83670 Bad Heilbrunn
 * Claudia Müller Kochelerstr.2 83670 Bad Heilbrunn
 * Barbara Tenge Conny Heurich Sonnenfeldweg /Klinik 83707 Bad Wiessee
-*
-*
-*
 * Susanne Schmied Santjohanserstr.39 83707 Bad Wiessee
 * Jutta Strecker Ringbergstr.43 83707 Bad Wiessee
 * Björn Ginster Rinbergstr.43 83707 Bad Wiessee
 * Murat Yalin Münchenerstr. 55 83707 Bad Wiessee
 * Theresa Vogl Watzmannstraße 35 84034 Landshut
 * Kristin Krömke Sonnenstr. 45 84061 Ergoldsbach Tel. 0173/6054293
-* Susann Sieger Bucherstr. 4 85110 Kipfenberg
-B﻿arbara Tenge Pras Back in Balance, Ettinger Str. 23a, 85057 Ingolstadt
 * Sylvia Kuttenreich Ettingerstr. 23 a  85057 Ingolstadt
+* K﻿atharina Keck, Praxis Gerhhäuser, 86415 Mering, Tel. 08233/3114464
 * Viorica Klein PT Praxis Pasdzior Hauptstr. 48 6512 Sulzbach
 * Christine Ergott Therapiezentrum Lerchenfeld Gute Anger 15 85356 Freising
 * Iris Wodera Fuchsweg 128 85598 Baldham München Ost
