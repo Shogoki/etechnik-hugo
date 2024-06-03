@@ -6,7 +6,7 @@ menu:
 ---
 ## Adressenliste der zertifizierten E.- Technik Physiotherapeuten nach dem Hanke Konzept
 
-**Stand: 05.06.2020** 
+**Stand: 03.06.2024**
 
 <details><summary>Postleitzahlbereich 00000</summary>
 
